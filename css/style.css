@@ -1,0 +1,338 @@
+html {
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    padding: 6em 5em;
+}
+
+main {
+    margin-top: 30px;
+}
+
+#resume #about main {
+    max-width: 840px;
+}
+
+#portfolio main {
+    max-width: 840px;
+}
+
+h1 {
+    text-align:center;
+    color: black
+    font: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h2 {
+    font: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color:#262626;
+    letter-spacing: 2px;
+    
+}
+
+#home h2 {
+    color: #639fff;
+}
+
+#works h2 {
+    color: dimgray;
+    text-align: center;
+}
+
+.workspage h2 {
+    font: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color:dimgray;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+
+.resumebutton h2 a {
+	color: dimgray;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 20em;
+}
+
+.resumebutton h2 a:hover {
+	color:#77abff;
+}
+
+h3 {
+    font: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight:00;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    color:dimgray;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: #262626;
+    margin: 1.5em 0 0.5em;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 0.7em 0 0;
+}
+
+p a {
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+p a:hover {
+    color:dimgray;
+}
+
+#resume p {
+    margin-left: 30px;
+    line-height: 25px;
+}
+
+#workspage p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.caption p {
+    padding-top: 0;
+    text-align: center;
+}
+
+.bold p {
+	font-style: oblique;
+}
+
+#resume ul {
+    margin-left: 15px;
+}
+
+main ul {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 0;
+    margin-top:0.2em;
+}
+main li {
+    margin-left: 2em;
+    width: auto;
+    float:inherit;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1em;
+    overflow: hidden;
+    
+}
+
+li {
+    text-align: center;
+    float: left;
+    width: 33%;
+
+}
+
+li a {
+    display: contents;
+    text-align: center;
+    
+    text-decoration: none;
+    text-transform: none;
+    
+    font-size: 1.5em;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+li a:hover{
+    color:#77abff;
+}
+
+/* welcome graphic */
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.typewriter h2 { 
+    /*font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.9em;
+	text-align: center;
+    color: dimgray;
+    letter-spacing: 5px;*/
+	border-right: .1em solid dimgray;
+	width: 14ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 1s steps(20, end),
+	           step-end infinite alternate;
+}
+
+.welcome img{
+    float: left;
+    padding-left: 15%;
+    padding-bottom: 50px;
+}
+/* end welcome graphic */
+
+
+/* image grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+    float: inherit;
+}
+
+.column {
+  flex: 50%;
+  max-width: 40%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.column img {
+  margin-top: 10%;
+    width: 100%;
+}
+
+.column img:hover {
+    /* opacity: 0.7; */
+}
+
+.column p {
+    text-align: center;
+    margin-top: 5px;
+}
+/* end image grid */
+
+/* contact section */
+.contact h3 {
+    margin-top: 50px;
+    text-align: center
+}
+
+.contact {
+    margin: 0 auto;
+}
+/* end contact section */
+
+.narrow {
+    max-width: 960px;
+    margin:0 auto;
+}
+
+.current {
+    color:#77abff;
+}
+
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.right {
+    float: right;
+}
+
+.aboutimg img {
+    float: left;
+    padding-right: 2.5em;
+	padding-bottom: 40px;
+}
+
+.workspage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#works img {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+}
+
+footer hr {
+    margin-bottom: 50px;
+}
+
+#about footer {
+	margin-top: 100px;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+    max-height: 80%;
+    max-width: 60%;
+    margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.video {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.center p{
+	text-align: center;
+}
