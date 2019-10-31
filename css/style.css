@@ -4,7 +4,7 @@ html {
 body {
     max-width: 960px;
     margin: auto;
-    padding: 6em 5em;
+    padding: 3em 5em;
 }
 
 main {
@@ -37,12 +37,8 @@ h2 {
     
 }
 
-#home h2 {
-    color: #639fff;
-}
-
 #works h2 {
-    color: dimgray;
+    color: lightslategray;
     text-align: center;
 }
 
@@ -56,16 +52,23 @@ h2 {
     padding-top: 30px;
 }
 
-.resumebutton h2 a {
-	color: dimgray;
+footer h2 {
+	color: lightslategray;
 	text-align: center;
-	text-decoration: none;
-	margin-top: 20em;
+    font-size: 1em;
 }
 
-.resumebutton h2 a:hover {
-	color:#77abff;
+footer h2 a {
+	color: lightslategray;
+	text-align: center;
+	text-decoration: none;
+    font-size: 1em;
 }
+
+footer h2 a:hover{
+	color: #77abff;
+}
+
 
 h3 {
     font: 'Raleway', sans-serif;
@@ -175,12 +178,7 @@ li a:hover{
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 .typewriter h2 { 
-    /*font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 1.9em;
-	text-align: center;
-    color: dimgray;
-    letter-spacing: 5px;*/
+    color: #639fff;
 	border-right: .1em solid dimgray;
 	width: 14ch;
 	white-space: nowrap;
@@ -279,16 +277,17 @@ li a:hover{
 }*/
 
 footer {
-    margin-top: 150px;
+    margin-top: 125px;
     text-align: center;
+    text-decoration: none;
 }
 
 footer hr {
     margin-bottom: 50px;
 }
 
-#about footer {
-	margin-top: 100px;
+#home footer {
+	margin-top: 200px;
 }
 
 footer img {
